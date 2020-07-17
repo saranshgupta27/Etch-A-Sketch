@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: rgb(31, 117, 117);
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+
+h1 {
+  text-align: center;
+  margin: 40px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+button {
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+
+}
+
+
+#button-section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+#container {
+  height: 50vh;
+  width: 50vh;
+  border: 4px rgb(216, 216, 216) solid;
+  display: grid;
+   margin: 50px auto;
+}
+
+.tile {
+  border: 1px rgb(0, 0, 0) solid;
+  background-color: white;
+}
+
+input[type=color]{
+  
+  border-style: none;
+  height:30px;
+  top:6.5px;
+  position: relative;
+  width: 100px;
+  
+} 
